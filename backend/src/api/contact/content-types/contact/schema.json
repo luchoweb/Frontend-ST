@@ -1,0 +1,18 @@
+{
+  "kind": "singleType",
+  "collectionName": "contacts",
+  "info": {
+    "singularName": "contact",
+    "pluralName": "contacts",
+    "displayName": "Contact"
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "attributes": {
+    "title": { "type": "string", "required": true },
+    "email": { "type": "email", "required": true },
+    "message": { "type": "text" },
+    "socialLinks": { "type": "json" }
+  }
+}

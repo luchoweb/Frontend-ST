@@ -1,0 +1,19 @@
+{
+  "kind": "singleType",
+  "collectionName": "products_pages",
+  "info": {
+    "singularName": "products-page",
+    "pluralName": "products-pages",
+    "displayName": "Products Page"
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "attributes": {
+    "eyebrow": { "type": "string", "required": true },
+    "title": { "type": "string", "required": true },
+    "description": { "type": "text", "required": true },
+    "emptyStateTitle": { "type": "string" },
+    "emptyStateDescription": { "type": "text" }
+  }
+}

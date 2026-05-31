@@ -1,0 +1,16 @@
+{
+  "name": "creative-portfolio",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Monorepo technical assessment with Strapi v4 backend and React 18 frontend.",
+  "scripts": {
+    "backend:dev": "npm --prefix backend run develop",
+    "frontend:dev": "npm --prefix frontend run dev",
+    "frontend:test": "npm --prefix frontend test",
+    "frontend:lint": "npm --prefix frontend run lint",
+    "test": "npm run frontend:test"
+  },
+  "engines": {
+    "node": ">=18 <=22"
+  }
+}

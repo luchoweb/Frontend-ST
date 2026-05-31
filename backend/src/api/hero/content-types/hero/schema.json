@@ -1,0 +1,21 @@
+{
+  "kind": "singleType",
+  "collectionName": "heroes",
+  "info": {
+    "singularName": "hero",
+    "pluralName": "heroes",
+    "displayName": "Hero"
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "attributes": {
+    "eyebrow": { "type": "string", "required": true },
+    "headline": { "type": "string", "required": true },
+    "summary": { "type": "text", "required": true },
+    "primaryCtaLabel": { "type": "string" },
+    "primaryCtaHref": { "type": "string" },
+    "secondaryCtaLabel": { "type": "string" },
+    "secondaryCtaHref": { "type": "string" }
+  }
+}

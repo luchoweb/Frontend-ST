@@ -1,0 +1,20 @@
+{
+  "kind": "collectionType",
+  "collectionName": "projects",
+  "info": {
+    "singularName": "project",
+    "pluralName": "projects",
+    "displayName": "Project"
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "attributes": {
+    "title": { "type": "string", "required": true },
+    "description": { "type": "text", "required": true },
+    "impact": { "type": "string" },
+    "stack": { "type": "json" },
+    "url": { "type": "string" },
+    "order": { "type": "integer", "default": 0 }
+  }
+}
