@@ -7,6 +7,7 @@
     "backend:dev": "npm --prefix backend run develop",
     "frontend:dev": "npm --prefix frontend run dev",
     "frontend:test": "npm --prefix frontend test",
+    "backend:test": "npm --prefix backend test",
     "frontend:lint": "npm --prefix frontend run lint",
     "test": "npm run frontend:test"
   },

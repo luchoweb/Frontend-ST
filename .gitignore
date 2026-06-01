@@ -20,6 +20,7 @@ backend/.cache/
 # frontend env
 frontend/.env.local
 frontend/.env.*.local
+frontend/.vite
 
 # logs
 *.log
