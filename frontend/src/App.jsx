@@ -1,3 +1,4 @@
+import React from 'react';
 import { Navigate, Route, Routes } from 'react-router-dom';
 import { AppLayout } from './components/layout/AppLayout.jsx';
 import { PortfolioPage } from './pages/PortfolioPage.jsx';

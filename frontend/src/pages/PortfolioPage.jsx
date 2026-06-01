@@ -1,3 +1,4 @@
+import React from 'react';
 import { SectionHeader } from '../components/SectionHeader.jsx';
 import { StatusMessage } from '../components/StatusMessage.jsx';
 import { useAsyncResource } from '../hooks/useAsyncResource.js';
@@ -88,7 +89,7 @@ export function PortfolioPage() {
         <SectionHeader
           eyebrow="Selected work"
           title="Projects shaped around clarity, resilience, and execution"
-          description="The content below is managed in Strapi as projects/highlights and rendered as reusable cards."
+          description=""
         />
         <div className="project-grid">
           {projects.map((project) => (

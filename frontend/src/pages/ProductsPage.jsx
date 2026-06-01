@@ -1,3 +1,4 @@
+import React from 'react';
 import { ProductTitleList } from '../components/ProductTitleList.jsx';
 import { SectionHeader } from '../components/SectionHeader.jsx';
 import { StatusMessage } from '../components/StatusMessage.jsx';

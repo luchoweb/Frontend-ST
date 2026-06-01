@@ -28,7 +28,7 @@ creative-portfolio/
 
 ## Prerequisites
 
-- Node.js **18–22** for Strapi v4 compatibility.
+- Node.js **18–22** for Strapi v4 compatibility (Node v20).
 - npm 8+.
 
 > The current source is JavaScript-only by design. TypeScript was not introduced to avoid mixing styles or adding setup that is unnecessary for the assessment scope.
