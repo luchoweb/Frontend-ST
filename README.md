@@ -110,13 +110,15 @@ Routes:
 
 ## Testing and checks
 
-Run the unit test:
+Run unit tests:
 
 ```bash
 npm run frontend:test
+npm run backend:test
 ```
 
-The test file covers the product service's success normalization, 4xx client error normalization, and network failure normalization.
+- Frontend tests cover product service success normalization, 4xx client error normalization, and network failure normalization.
+- Backend test covers Strapi bootstrap behavior (content seeding and public permission enablement) through mocked unit boundaries.
 
 Optional checks after installing frontend dependencies:
 
@@ -140,6 +142,7 @@ npm --prefix frontend run lint
 - Added Strapi schemas, config, seed content, and CORS settings.
 - Built the React routes, reusable layout/components, Strapi service, and Fake Store service.
 - Ran `npm --prefix frontend test` successfully.
+- Ran `npm --prefix backend test` successfully.
 - Reviewed folder structure, imports, and obvious dead code/warnings in the authored files.
 
 Dependency installation/build commands were not run in this environment because registry access returned a `403 Forbidden` response during an npm metadata lookup. The project remains configured for local installation on a normal npm-enabled machine.
