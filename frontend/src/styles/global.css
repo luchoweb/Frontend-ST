@@ -278,6 +278,7 @@ a {
   background: rgba(255, 255, 255, 0.06);
   padding: 0.65rem 0.85rem;
   font-weight: 800;
+  max-height: 41px;
 }
 
 .skill-pill small {
