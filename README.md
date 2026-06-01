@@ -149,17 +149,11 @@ Dependency installation/build commands were not run in this environment because 
 
 ## AI Usage
 
-AI assistance was used to scaffold and implement the solution end-to-end under the requested constraints. Specifically, AI helped with:
+AI usage is documented in separate files by exercise:
 
-- designing the monorepo structure and technical plan;
-- creating Strapi content-type schemas, local config, CORS, seed content, and public read permissions;
-- implementing the React SPA architecture, responsive UI, routes, and reusable components;
-- designing the Fake Store service error normalization strategy;
-- writing the product service unit tests and project documentation.
-
-The implementation was reviewed for consistency, unnecessary code, naming, and maintainability before finalizing. No AI-generated claims of deployment or production operation are included because the deliverable is local-only.
+- Exercise 1: [`docs/ai-usage-exercise-1.md`](docs/ai-usage-exercise-1.md)
+- Exercise 2: [`docs/ai-usage-exercise-2.md`](docs/ai-usage-exercise-2.md)
 
 ## Additional documentation
 
 - [`docs/architecture.md`](docs/architecture.md)
-- [`docs/ai-usage.md`](docs/ai-usage.md)
