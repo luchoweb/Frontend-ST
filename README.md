@@ -154,6 +154,10 @@ AI usage is documented in separate files by exercise:
 - Exercise 1: [`docs/ai-usage-exercise-1.md`](docs/ai-usage-exercise-1.md)
 - Exercise 2: [`docs/ai-usage-exercise-2.md`](docs/ai-usage-exercise-2.md)
 
+## Demo video (optional)
+
+- Demo (Google Drive): [Watch demo](https://drive.google.com/file/d/1kbUgpQqFAICV6LC4Qla-KAXYZwgZpSAo/view?usp=sharing)
+
 ## Additional documentation
 
 - [`docs/architecture.md`](docs/architecture.md)
