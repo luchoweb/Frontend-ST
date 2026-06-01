@@ -1,0 +1,27 @@
+{
+  "name": "creative-portfolio-backend",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Strapi v4 CMS for the creative portfolio assessment.",
+  "scripts": {
+    "develop": "strapi develop",
+    "start": "strapi start",
+    "build": "strapi build",
+    "strapi": "strapi"
+  },
+  "dependencies": {
+    "@strapi/plugin-i18n": "4.25.11",
+    "@strapi/plugin-users-permissions": "4.25.11",
+    "@strapi/strapi": "4.25.11",
+    "better-sqlite3": "8.6.0",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "react-router-dom": "^5.3.4",
+    "styled-components": "^5.3.11"
+  },
+  "engines": {
+    "node": ">=18 <=22",
+    "npm": ">=8"
+  },
+  "license": "MIT"
+}

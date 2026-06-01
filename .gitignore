@@ -1,0 +1,34 @@
+# dependencies
+node_modules/
+.pnp.*
+
+# production builds
+dist/
+build/
+.cache/
+.tmp/
+
+# Strapi local state
+backend/.tmp/
+backend/build/
+backend/dist/
+backend/public/uploads/*
+!backend/public/uploads/.gitkeep
+backend/.env
+backend/.cache/
+
+# frontend env
+frontend/.env.local
+frontend/.env.*.local
+
+# logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# OS / editors
+.DS_Store
+.idea/
+.vscode/
